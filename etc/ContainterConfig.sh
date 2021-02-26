@@ -7,11 +7,8 @@ T0_VERSION=2.2.1
 
 #WMC_PR specifies a list of WMCore Pull Request to be tested
 #WMC_PR=""
-WMC_PR=""
+WMC_PR="10044 10067"
 
-#Specify which tests you want to run, by assigning a value of 1 to the corresponding variable
-UNIT_TEST=0
-REPLAY_TEST=1
 
 #If REPLAY_TEST=1, specify the type of run you want to test picking one of the following options
 #	MWGR				Latest MWGR replay test
